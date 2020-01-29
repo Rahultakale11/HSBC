@@ -29,7 +29,7 @@ public class liststep {
 		 driver.manage().window().maximize();
 	    driver.get(url);
 	}
-
+//code
 	@Then("^I enter all required details$")
 	public void enterAllDetails(DataTable testData) throws Throwable {
 		List<String> details = testData.asList(String.class);
