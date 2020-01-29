@@ -33,6 +33,7 @@ public class Loginpage {
 	 public void click()
 	 {
 		 loginclick.click();
+		 system.out.println("Jenkins");
 	 }
 	 
 	 @FindBy(how=How.XPATH,using="//a[text()='Pipeline']")
