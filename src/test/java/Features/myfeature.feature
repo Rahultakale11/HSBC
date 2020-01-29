@@ -7,6 +7,8 @@ Feature: Login browser
     When : enter the uname "<username>"
     And : Enter Password "<Password>"
     Then : Click login button
+    
+    Ranjnikant
 
     Examples: 
       | username |  | Password   |
