@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(features = {"src/test/java/Features"},
 glue= {"Stepdefinition"},
 dryRun=false
-//tags={"@SmokeTest"},
+tags={"@SmokeTest"},
 
 )
 public class runner {
